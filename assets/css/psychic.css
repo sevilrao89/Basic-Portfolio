@@ -36,7 +36,7 @@
 	
 	main{
 		padding: 1.5em;
-		background: url("images/concrete.png");
+		
 	}
 
 	main h3{
@@ -53,15 +53,26 @@
 		color: #24c;
 	}
 
+	#w{
+		font-weight: bold;
+	}
+
+	#l{
+		font-weight: bold;
+	}
+
+	#r{
+		font-weight: bold;
+	}
+
 	#guesses{
         color: #e11;
         font-weight: bold;
         font-size: 1.25em;
 		text-decoration: line-through;
 	}
-	
+
     #guess-chars { display: inline-block; list-style-type: none }
     #guess-chars li { cursor:pointer; display: inline; font-weight: bold }
     #guess-chars li.chosen { cursor: default; opacity: .4 }
-
 
