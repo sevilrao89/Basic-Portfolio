@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/trivia.css"> 
+
+
+	<title>
+	Trivia Game
+	</title>
+
+	</head>
+
+<body>
+	
+
+	<main>
+			
+			<div id="start" class="">
+
+				<h1> Pop Culture Trivia </h1>
+
+				<button id="startbutton">Start</button>
+
+				
+			</div>
+		
+
+			<form id="game" class="hidden">
+
+				<h1>Pop Culture Trivia</h1>
+
+				<label id= "time"> Time Remaining: <span id="timerem">#</span> seconds </label>
+
+				<p class ="question"> Which band member left One Direction ? </p>
+
+				<br>
+
+
+				<input type="radio" name="band" value="Justin-Timberlake"><label class="answer"> Justin Timberlake</label>
+				<input type="radio" name="band" value="Harry-Styles"> <label class="answer"> Harry Styles</label>
+				<input type="radio" name="band" value="Zayn-Malik"> <label class="answer"> Zayn</label>
+				<input type="radio" name="band" value="Justin-Bieber"> <label class="answer"> Justin Bieber</label>
+				
+				<br>
+
+				<p class ="question">How many seasons did the sitcom "Friends" have?</p>
+
+				<br>
+
+
+				<input type="radio" name="friends" value="10"> <label class="answer number"> 10</label>
+				<input type="radio" name="friends" value="6"> <label class="answer number">6</label>
+				<input type="radio" name="friends" value="5"> <label class="answer number"> 5</label>
+				<input type="radio" name="friends" value="8"> <label class="answer number"> 8</label>
+
+				<br>
+
+				
+
+				<p class ="question">Who is our generation's real Iron Man?</p>
+
+				<br>
+
+					
+
+				<input type="radio" name="ironman" value="Elon-Musk"><label class="answer">  Elon Musk</label> 
+				<input type="radio" name="ironman" value="Robert-Downey"> <label class="answer">  Robert Downey Jr.</label> 
+				<input type="radio" name="ironman" value="Bill-Gates"><label class="answer">  Bill Gates</label>  
+				<input type="radio" name="ironman" value="Warren-Buffett"><label class="answer"> Warren Buffett</label> 
+
+				<br> 
+
+				<p class ="question">What movie did Leonardo Dicaprio win an Oscar for?</p>
+
+				<br>
+
+				<input type="radio" name="movie" value="Wolf-of-Wall-street"> <label class="answer"> Wolf of Wall street</label>
+				<input type="radio" name="movie" value="The-Revenant"> <label class="answer"> The Revenant</label>
+				<input type="radio" name="movie" value="The-Departed"><label class="answer"> The Departed</label>
+				<input type="radio" name="movie" value="Titanic"> <label class="answer"> Titanic</label>
+
+				<br>
+
+				<p class ="question">What artist did Kanye West interrupt at the VMA awards show?
+				</p>
+
+				<br>
+
+				<input type="radio" name="music" value="Britney-Spears"><label class="answer"> Britney Spears</label>
+				<input type="radio" name="music" value="Adele"> <label class="answer"> Adele</label>
+				<input type="radio" name="music" value="Beyonce"> <label class="answer"> Beyonce</label>
+				<input type="radio" name="music" value="Taylor-Swift"> <label class="answer">Taylor Swift </label>
+
+			</form>
+			
+
+			<div id="end" class="hidden">
+
+				<h1> Pop Culture Trivia </h1>
+
+				<p>All done!</p>
+
+			<div class="results">
+
+				<label>Correct Answers:&nbsp;&nbsp;<span id="correct">0</span></label>
+
+				<label>Incorrect Answers:&nbsp;&nbsp;<span id="incorrect">0</span></label>
+
+				<label>Unanswered:&nbsp;&nbsp;<span id="unanswered">0</span></label>
+
+			</div>
+
+			</div>
+
+	</main>
+
+	<footer>
+		
+	</footer>
+
+
+<script src="../assets/js/trivia.js"></script>
+
+	
+</body>
+
+
+</html>
